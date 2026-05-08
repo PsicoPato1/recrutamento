@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Cósmico Negro</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+</head>
+
+<body>
+
+  <!-- FUNDO -->
+  <div class="background"></div>
+
+  <!-- HERO -->
+  <section class="hero fade-section">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+      <!-- LOGO -->
+      <div class="logo-container">
+
+        <img
+          src="logo.png"
+          class="logo"
+          alt="Logo Cósmico Negro"
+        >
+
+      </div>
+
+      <h1>CÓSMICO NEGRO</h1><p class="hero-text">
+  Seja bem-vindo ao site do Cósmico Negro.<br><br>
+
+  Mais do que um simples clube,
+  somos uma comunidade construída em estratégia,
+  atividade, evolução e personalidade.
+
+  <br><br>
+
+  Explore nosso universo,
+  conheça um pouco sobre a equipe,
+  nossos diferenciais e a identidade do clube.
+
+  <br><br>
+
+  Caso deseje fazer parte do Cósmico Negro,
+  siga até o final da página e envie sua solicitação
+  para um de nossos responsáveis pelo recrutamento.
+</p>
+
+      </p>
+
+      <div class="scroll-indicator">
+        ↓ Continue explorando ↓
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SOBRE -->
+  <section class="section fade-section">
+
+    <h2>Sobre o Clube</h2>
+
+    <p>
+      O Cósmico Negro foi criado para jogadores que buscam
+      organização, atividade e uma comunidade realmente diferenciada.
+
+      <br><br>
+
+      Mais do que salas e eventos,
+      buscamos criar uma experiência única para cada membro.
+    </p>
+
+  </section>
+
+  <!-- VIDEO -->
+  <section class="section fade-section">
+
+    <h2>Transmissão Oficial</h2>
+
+    <video
+      controls
+      autoplay
+      muted
+      loop
+    >
+
+      <source
+        src="video.mp4"
+        type="video/mp4"
+      >
+
+    </video>
+
+  </section>
+
+  <!-- DIFERENCIAIS -->
+  <section class="section fade-section">
+
+    <h2>Diferenciais</h2>
+
+    <div class="cards">
+
+      <div class="card">
+
+        <h3>⚔️ Eventos Exclusivos</h3>
+
+        <p>
+          Eventos organizados
+          e experiências únicas.
+        </p>
+
+      </div>
+
+      <div class="card">
+
+        <h3>👁️ Comunidade Ativa</h3>
+
+        <p>
+          Interação constante
+          e membros participativos.
+        </p>
+
+      </div>
+
+      <div class="card">
+
+        <h3>🌌 Identidade Própria</h3>
+
+        <p>
+          Uma comunidade construída
+          com estilo e personalidade.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- COMANDO CENTRAL -->
+  <section class="section fade-section">
+
+    <h2>Comando Central</h2>
+
+    <div class="cards">
+
+      <div class="card">
+
+        <img
+          src="malevola.png"
+          class="profile"
+        >
+
+        <h3>CN × MALEVOLA</h3>
+
+        <p>Líder</p>
+
+      </div>
+
+      <div class="card">
+
+        <img
+          src="psicopato.png"
+          class="profile"
+        >
+
+        <h3>CN × PsicoPato</h3>
+
+        <p>Adm</p>
+
+      </div>
+
+      <div class="card">
+
+        <img
+          src="jiraya.png"
+          class="profile"
+        >
+
+        <h3>CN × Jiraya</h3>
+
+        <p>Adm</p>
+
+      </div>
+
+      <div class="card">
+
+        <img
+          src="selvagem.png"
+          class="profile"
+        >
+
+        <h3>CN × SELVAGEM</h3>
+
+        <p>Adm</p>
+
+      </div>
+
+      <div class="card">
+
+        <img
+          src="hot.png"
+          class="profile"
+        >
+
+        <h3>CN × HOT</h3>
+
+        <p>Adm</p>
+
+      </div>
+
+      <div class="card">
+
+        <img
+          src="xadrez.png"
+          class="profile"
+        >
+
+        <h3>CN × Xadrez</h3>
+
+        <p>Moderador</p>
+
+      </div>
+
+      <div class="card">
+
+        <img
+          src="botzinhae.png"
+          class="profile"
+        >
+
+        <h3>CN × BOTZINHÆ</h3>
+
+        <p>Moderador</p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- RECRUTAMENTO -->
+  <section class="section fade-section">
+
+    <h2>Recrutamento</h2>
+
+    <form
+      id="recruitForm"
+      class="form"
+    >
+
+      <input
+        type="text"
+        id="nome"
+        placeholder="Nome ou Nick"
+        required
+      >
+
+      <input
+        type="number"
+        id="idade"
+        placeholder="Idade"
+        required
+      >
+
+      <input
+        type="text"
+        id="tempo"
+        placeholder="Tempo ativo no jogo"
+        required
+      >
+
+      <input
+        type="text"
+        id="disp"
+        placeholder="Disponibilidade"
+        required
+      >
+
+      <!-- MOTIVO -->
+      <div class="textarea-box">
+
+        <textarea
+          id="motivo"
+          placeholder="Por que deseja entrar?"
+          minlength="20"
+          required
+        ></textarea>
+
+        <div
+          class="char-counter"
+          id="charCounter"
+        >
+          0/20
+        </div>
+
+      </div>
+
+      <button
+        type="submit"
+        class="btn"
+      >
+        Enviar Recrutamento
+      </button>
+
+    </form>
+
+  </section>
+
+  <!-- FINAL -->
+  <section class="final-section fade-section">
+
+    <div class="final-glow"></div>
+
+    <h2>
+      O vazio não é para todos.
+    </h2>
+
+    <p>
+      Enquanto muitos procuram apenas um clube,
+      poucos encontram um lugar onde realmente pertencem.
+    </p>
+
+    <span>
+      CÓSMICO NEGRO
+    </span>
+
+  </section>
+
+  <!-- MODAL -->
+  <div
+    class="recruit-modal"
+    id="recruitModal"
+  >
+
+    <div
+      class="modal-overlay"
+      onclick="closeModal()"
+    ></div>
+
+    <div class="modal-content">
+
+      <!-- ESCOLHER -->
+      <div id="selectOperator">
+
+        <h2 class="modal-title">
+          SELECIONE O OPERADOR RESPONSÁVEL
+        </h2>
+
+        <p class="modal-subtitle">
+          Escolha quem irá receber sua transmissão.
+        </p>
+
+        <div class="modal-cards">
+
+          <!-- ADM 1 -->
+          <div
+            class="operator-card"
+            onclick="selectOperator(
+            this,
+            'https://wa.me/5591992807582'
+            )"
+          >
+
+            <img
+              src="psicopato.png"
+              class="profile"
+            >
+
+            <h3>CN × PsicoPato</h3>
+
+            <p>
+              Responsável pelo Recrutamento
+            </p>
+
+          </div>
+
+          <!-- ADM 2 -->
+          <div
+            class="operator-card"
+            onclick="selectOperator(
+            this,
+            'https://wa.me/5591888888888'
+            )"
+          >
+
+            <img
+              src="adm2.png"
+              class="profile"
+            >
+
+            <h3>CN × OPERADOR</h3>
+
+            <p>
+              Responsável pelo Recrutamento
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- CONFIRMAÇÃO -->
+      <div
+        id="confirmOperator"
+        class="confirm-box"
+      >
+
+        <div id="selectedCardContainer"></div>
+
+        <h2 class="modal-title">
+          TRANSMISSÃO ESTABELECIDA
+        </h2>
+
+        <p class="modal-subtitle">
+          Você será redirecionado para o WhatsApp
+          com sua mensagem já preparada.
+        </p>
+
+        <div class="confirm-buttons">
+
+          <button
+            class="cancel-btn"
+            onclick="closeModal()"
+          >
+            CANCELAR
+          </button>
+
+          <button
+            class="confirm-btn"
+            onclick="goToWhatsapp()"
+          >
+            CONTINUAR
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div><!-- SCRIPT --><script>
+
+  // FADE
+
+  const observer =
+  new IntersectionObserver((entries) => {
+
+    entries.forEach((entry) => {
+
+      if(entry.isIntersecting){
+
+        entry.target.classList.add('show');
+
+      }
+
+      else{
+
+        entry.target.classList.remove('show');
+
+      }
+
+    });
+
+  }, {
+    threshold:0.15
+  });
+
+  const hiddenElements =
+  document.querySelectorAll('.fade-section');
+
+  hiddenElements.forEach((el) =>
+    observer.observe(el)
+  );
+
+  // ELEMENTOS
+
+  const form =
+  document.getElementById('recruitForm');
+
+  const modal =
+  document.getElementById('recruitModal');
+
+  const confirmBox =
+  document.getElementById('confirmOperator');
+
+  const selectBox =
+  document.getElementById('selectOperator');
+
+  const selectedContainer =
+  document.getElementById('selectedCardContainer');
+
+  const motivo =
+  document.getElementById('motivo');
+
+  const charCounter =
+  document.getElementById('charCounter');
+
+  // URL PARAMS
+
+  const params =
+  new URLSearchParams(window.location.search);
+
+  const admNumber =
+  params.get('adm');
+
+  const admName =
+  params.get('nome');
+
+  const admPhoto =
+  params.get('foto');
+
+  let selectedLink = '';
+
+  // CONTADOR
+
+  motivo.addEventListener('input', () => {
+
+    const total =
+    motivo.value.length;
+
+    charCounter.innerHTML =
+    `${total}/20`;
+
+    if(total >= 20){
+
+      charCounter.style.color =
+      '#4ade80';
+
+    }
+
+    else{
+
+      charCounter.style.color =
+      '#c084fc';
+
+    }
+
+  });
+
+  // FORM
+
+  form.addEventListener('submit', async function(e){
+
+    e.preventDefault();
+
+    if(motivo.value.length < 20){
+
+      alert(
+        'Escreva pelo menos 20 caracteres.'
+      );
+
+      return;
+
+    }
+
+    const data = {
+
+      nome:
+      document.getElementById('nome').value,
+
+      idade:
+      document.getElementById('idade').value,
+
+      tempo:
+      document.getElementById('tempo').value,
+
+      disponibilidade:
+      document.getElementById('disp').value,
+
+      motivo:
+      motivo.value
+
+    };
+
+    try{
+
+      // FORMSPREE
+
+      await fetch(
+
+        'https://formspree.io/f/mzdoajpp',
+
+        {
+
+          method:'POST',
+
+          headers:{
+
+            'Content-Type':'application/json',
+            'Accept':'application/json'
+
+          },
+
+          body:JSON.stringify(data)
+
+        }
+
+      );
+
+      // ABRIR MODAL
+
+      modal.classList.add('active');
+
+      document.body.style.overflow =
+      'hidden';
+
+      // LINK PERSONALIZADO
+
+      if(
+        admNumber &&
+        admName &&
+        admPhoto
+      ){
+
+        selectedLink =
+        `https://wa.me/${admNumber}`;
+
+        const card = `
+
+        <div class="operator-card selected">
+
+          <img
+            src="${admPhoto}"
+            class="profile"
+          >
+
+          <h3>${admName}</h3>
+
+          <p>
+            Responsável pelo Recrutamento
+          </p>
+
+        </div>
+
+        `;
+
+        selectedContainer.innerHTML =
+        card;
+
+        selectBox.style.display =
+        'none';
+
+        confirmBox.classList.add('active');
+
+      }
+
+    }
+
+    catch(error){
+
+      alert(
+        'Erro ao enviar recrutamento.'
+      );
+
+    }
+
+  });
+
+  // ESCOLHER OPERADOR
+
+  function selectOperator(card, link){
+
+    selectedLink = link;
+
+    const clone =
+    card.cloneNode(true);
+
+    clone.classList.add('selected');
+
+    selectedContainer.innerHTML = '';
+
+    selectedContainer.appendChild(clone);
+
+    selectBox.style.display = 'none';
+
+    confirmBox.classList.add('active');
+
+  }
+
+  // FECHAR MODAL
+
+  function closeModal(){
+
+    modal.classList.remove('active');
+
+    confirmBox.classList.remove('active');
+
+    selectBox.style.display = 'block';
+
+    selectedContainer.innerHTML = '';
+
+    document.body.style.overflow =
+    'auto';
+
+  }
+
+  // WHATSAPP
+
+  function goToWhatsapp(){
+
+    const nome =
+    document.getElementById('nome').value;
+
+    const idade =
+    document.getElementById('idade').value;
+
+    const tempo =
+    document.getElementById('tempo').value;
+
+    const disp =
+    document.getElementById('disp').value;
+
+    const motivoTexto =
+    document.getElementById('motivo').value;
+
+    const mensagem =
+
+`Olá.
+Enviei meu recrutamento para entrar no clube Cósmico Negro.
+
+📌 Nome: ${nome}
+📌 Idade: ${idade}
+📌 Tempo ativo: ${tempo}
+📌 Disponibilidade: ${disp}
+
+📝 Motivo:
+${motivoTexto}`;
+
+    const texto =
+    encodeURIComponent(mensagem);
+
+    window.location.href =
+    `${selectedLink}?text=${texto}`;
+
+  }
+
+</script>
+
+
+
+</body>
+
+</html>
